@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9DBD4;
+}
+
+.green-bar {
+    background-color: #009688;
+    height: 150px;
+}
+
+.container {
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 8rem;
+}
