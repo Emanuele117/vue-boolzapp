@@ -5,12 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolzap</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <section class="green-bar"></section>
-    <div class="container">
-        
+    <div class="container" id="app">
+        <div class="sidebar">
+            <div class="userName">
+                <img src="./assets/img/avatar_io.jpg" class="myAvatar">
+                <p class="p-user">Nome Utente</p>
+                <i class="fas fa-circle-notch icons"></i>
+                <i class="fas fa-comment-alt icons"></i>
+                <i class="fas fa-ellipsis-v icons"></i>
+            </div>
+            <div class="messageNotification">
+                <i class="fas fa-bell-slash iconaNotifiche"></i>
+                <div class="p-notifica">
+                    <p class="riceviNotifiche">Ricevi notifiche di nuovi messaggi</p>
+                    <p class="attivaNotifiche">Attiva notifiche desktop</p>
+                </div>
+            </div>
+            <div class="search"></div>
+            <div class="users">
+                <div class="user1"></div>
+                <div class="user2"></div>
+                <div class="user3"></div>
+                <div class="user4"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="user"></div>
+            <div class="chat"></div>
+            <div class="message"></div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="./assets/app.js"></script>

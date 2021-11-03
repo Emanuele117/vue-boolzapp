@@ -15,9 +15,134 @@ body {
 
 .container {
     width: 1300px;
-    height: 700px;
+    height: 900px;
     margin: auto;
     background-color: white;
     position: relative;
-    bottom: 8rem;
+    bottom: 100px;
+    display: flex;
+}
+
+.sidebar {
+    background-color: pink;
+    height: 100%;
+    width: 400px;
+}
+
+.main {
+    background-color: red;
+    width: 900px;
+}
+
+.userName {
+    height: 100px;
+    width: 400px;
+    background-color: #EAEAEA;
+    display: flex;
+}
+
+.messageNotification {
+    height: 100px;
+    width: 400px;
+    background-color: #8EDAFC;
+    display: flex;
+}
+
+.search {
+    height: 80px;
+    width: 400px;
+    background-color: yellow;
+}
+
+.users {
+    height: 620px;
+    width: 400px;
+    background-color: green;
+}
+
+.user1 {
+    height: 155px;
+    width: 400px;
+    background-color: cyan;
+}
+
+.user2 {
+    height: 155px;
+    width: 400px;
+    background-color: rgb(116, 33, 155);
+}
+
+.user3 {
+    height: 155px;
+    width: 400px;
+    background-color: rgb(25, 132, 182);
+}
+
+.user4 {
+    height: 155px;
+    width: 400px;
+    background-color: rgb(201, 138, 21);
+}
+
+.user {
+    height: 100px;
+    width: 900px;
+    background-color: lightblue;
+}
+
+.chat {
+    background-image: url(./img/mine.jpg);
+    object-fit: contain;
+    height: 700px;
+}
+
+.message {
+    height: 100px;
+    width: 900px;
+    background-color: white;
+}
+
+.myAvatar {
+    height: 80px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.p-user {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.icons {
+    color: gray;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-right: -10px;
+    margin-left: 40px;
+}
+
+.iconaNotifiche {
+    background-color: white;
+    border-radius: 50%;
+    color: #8EDAFC;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.p-notifica {
+    margin-top: 30px;
+}
+
+.riceviNotifiche {
+    font-size: 20px;
+}
+
+.attivaNotifiche {
+    opacity: 60%;
+    text-decoration: underline;
 }
