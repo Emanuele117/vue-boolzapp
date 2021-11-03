@@ -60,6 +60,8 @@ body {
     height: 620px;
     width: 400px;
     background-color: green;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .user1 {
@@ -68,24 +70,6 @@ body {
     background-color: white;
     display: flex;
     border-bottom: 1px solid lightgrey;
-}
-
-.user2 {
-    height: 155px;
-    width: 400px;
-    background-color: white;
-}
-
-.user3 {
-    height: 155px;
-    width: 400px;
-    background-color: white;
-}
-
-.user4 {
-    height: 155px;
-    width: 400px;
-    background-color: white;
 }
 
 .user {
