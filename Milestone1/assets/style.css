@@ -42,7 +42,7 @@ body {
     border-right: 1px solid lightgrey;
 }
 
-.messageNotification {
+.notificationMessage {
     height: 100px;
     width: 400px;
     background-color: #8EDAFC;
@@ -205,4 +205,5 @@ body {
 .name {
     margin-top: 20px;
     font-size: 25px;
+    margin-left: 15px;
 }
