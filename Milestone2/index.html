@@ -51,15 +51,12 @@
                 </div>
             </div>
             <div class="chat">
-                <div class="sent" v-for= "contact in contacts">
-                    <p class="messaggio">{{contact.messages.text}}</p>
-                    <p class="date">{{contact.messages.date}}</p>
+                <div  v-for= "(message,index) in contacts[attiva].messages" :class="addClass(index)">
+                    <p class="messaggio">{{message.text}}</p>
+                    <p class="date">{{message.date}}</p>
                 </div>
                 
-                <div class="received">
-                    <p class="messaggio">tutto fatto</p>
-                    <p class="date2">10/01/2020 15:30:55</p>
-                </div>
+                
             </div>
             <div class="message">
                 <i class="far fa-smile smile"></i>

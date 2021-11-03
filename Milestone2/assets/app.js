@@ -10,6 +10,7 @@ messaggi relativi al contatto attivo all’interno del pannello della conversazi
 const app = new Vue({
     el: '#app',
     data: {
+        attiva: 0,
         contacts: [
             {
                 name: 'Michele',
@@ -95,5 +96,12 @@ const app = new Vue({
                 ],
             },
         ]
+    },
+    methods: {
+        addClass(index) {
+            let classeMessaggio = this.contacts[this.attiva].messages[index].status
+
+            return classeMessaggio
+        }
     }
 })
