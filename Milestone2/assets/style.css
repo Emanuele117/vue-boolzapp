@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9DBD4;
+}
+
+.green-bar {
+    background-color: #009688;
+    height: 150px;
+}
+
+.container {
+    width: 1300px;
+    height: 900px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+}
+
+.sidebar {
+    background-color: pink;
+    height: 100%;
+    width: 400px;
+}
+
+.main {
+    background-color: red;
+    width: 900px;
+}
+
+.userName {
+    height: 100px;
+    width: 400px;
+    background-color: #EAEAEA;
+    display: flex;
+    border-right: 1px solid lightgrey;
+}
+
+.notificationMessage {
+    height: 100px;
+    width: 400px;
+    background-color: #8EDAFC;
+    display: flex;
+}
+
+.search {
+    height: 80px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.users {
+    height: 620px;
+    width: 400px;
+    background-color: green;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.user1 {
+    height: 155px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+}
+
+.user {
+    height: 100px;
+    width: 900px;
+    background-color: #EAEAEA;
+    display: flex;
+}
+
+.chat {
+    background-image: url(./img/mine.jpg);
+    object-fit: contain;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.message {
+    height: 100px;
+    width: 900px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myAvatar {
+    height: 80px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.p-user {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.icons {
+    color: gray;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-right: -10px;
+    margin-left: 40px;
+}
+
+.iconaNotifiche {
+    background-color: white;
+    border-radius: 50%;
+    color: #8EDAFC;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.p-notifica {
+    margin-top: 30px;
+}
+
+.riceviNotifiche {
+    font-size: 20px;
+}
+
+.attivaNotifiche {
+    opacity: 60%;
+    text-decoration: underline;
+}
+
+.icona {
+    font-size: 25px;
+    color: grey;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.input {
+    border: none;
+    width: 200px;
+}
+
+.smile {
+    margin: 30px;
+    font-size: 35px;
+    color: grey;
+}
+
+.text {
+    height: 80px;
+    border: none;
+    padding: 25px;
+    margin: 10px;
+    width: 650px;
+    margin-right: 4rem;
+    margin-left: -2rem;
+}
+
+.mic {
+    font-size: 35px;
+    color: grey;
+    margin: 30px;
+    margin-left: -3rem;
+}
+
+.paragrafi-user {
+    margin: -10px;
+    margin-left: 1rem;
+    margin-right: 31rem;
+}
+
+.user-icons {
+    margin-top: 40px;
+    font-size: 30px;
+    color: grey;
+    width: 140px;
+}
+
+.fa-search {
+    margin-right: 20px;
+}
+
+.fa-paperclip {
+    margin-right: 20px;
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 15px;
+}

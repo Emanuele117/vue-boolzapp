@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolzap</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <section class="green-bar"></section>
+    <div class="container" id="app">
+        <div class="sidebar">
+            <div class="userName">
+                <img src="./assets/img/avatar_io.jpg" class="myAvatar">
+                <p class="p-user">Nome Utente</p>
+                <i class="fas fa-circle-notch icons"></i>
+                <i class="fas fa-comment-alt icons"></i>
+                <i class="fas fa-ellipsis-v icons"></i>
+            </div>
+            <div class="notificationMessage">
+                <i class="fas fa-bell-slash iconaNotifiche"></i>
+                <div class="p-notifica">
+                    <p class="riceviNotifiche">Ricevi notifiche di nuovi messaggi</p>
+                    <p class="attivaNotifiche">Attiva notifiche desktop</p>
+                </div>
+            </div>
+            <div class="search">
+                <i class="fas fa-search icona"></i>
+                <input type="text" placeholder="Cerca o inizia una nuova chat" class="input">
+            </div>
+            <div class="users">
+                <div class="user1" v-for= "contact in contacts">
+                    <img :src="contact.avatar" class="avatar">
+                    <p class="name">{{contact.name}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="user">
+                <img src="./assets/img/avatar_1.jpg" class="myAvatar">
+                <div class="paragrafi-user">
+                    <p class="p-user">Michele</p>
+                    <p class="access">Ultimo accesso oggi alle</p>
+                </div>
+                <div class="user-icons">
+                    <i class="fas fa-search "></i>
+                    <i class="fas fa-paperclip"></i>
+                    <i class="fas fa-ellipsis-v "></i>
+                </div>
+            </div>
+            <div class="chat"></div>
+            <div class="message">
+                <i class="far fa-smile smile"></i>
+                <input type="text" placeholder="Scrivi un messaggio" class="text">
+                <i class="fas fa-microphone mic"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
