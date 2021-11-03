@@ -207,3 +207,48 @@ body {
     font-size: 25px;
     margin-left: 15px;
 }
+
+.sent {
+    background-color: #D5F9BA;
+    width: 270px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-left: 35rem;
+}
+
+.sent2 {
+    background-color: #D5F9BA;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-left: 33rem;
+}
+
+.date {
+    font-size: 13px;
+    opacity: 60%;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+
+.date2 {
+    font-size: 13px;
+    opacity: 60%;
+    margin-left: 160px;
+    margin-top: 5px;
+}
+
+.messaggio {
+    font-size: 22px;
+}
+
+.received {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
