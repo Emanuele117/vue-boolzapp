@@ -102,6 +102,9 @@ const app = new Vue({
             let classeMessaggio = this.contacts[this.attiva].messages[index].status
 
             return classeMessaggio
+        },
+        visibile(index) {
+            this.attiva = +1
         }
     }
 })
