@@ -39,6 +39,7 @@ body {
     width: 400px;
     background-color: #EAEAEA;
     display: flex;
+    border-right: 1px solid lightgrey;
 }
 
 .messageNotification {
@@ -51,7 +52,8 @@ body {
 .search {
     height: 80px;
     width: 400px;
-    background-color: yellow;
+    background-color: white;
+    display: flex;
 }
 
 .users {
@@ -87,19 +89,23 @@ body {
 .user {
     height: 100px;
     width: 900px;
-    background-color: lightblue;
+    background-color: #EAEAEA;
+    display: flex;
 }
 
 .chat {
     background-image: url(./img/mine.jpg);
     object-fit: contain;
     height: 700px;
+    overflow-y: scroll;
 }
 
 .message {
     height: 100px;
     width: 900px;
-    background-color: white;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-around;
 }
 
 .myAvatar {
@@ -145,4 +151,61 @@ body {
 .attivaNotifiche {
     opacity: 60%;
     text-decoration: underline;
+}
+
+.icona {
+    font-size: 25px;
+    color: grey;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.input {
+    border: none;
+    color: white;
+    width: 200px;
+}
+
+.smile {
+    margin: 30px;
+    font-size: 35px;
+    color: grey;
+}
+
+.text {
+    height: 80px;
+    border: none;
+    padding: 25px;
+    margin: 10px;
+    width: 650px;
+    margin-right: 4rem;
+    margin-left: -2rem;
+}
+
+.mic {
+    font-size: 35px;
+    color: grey;
+    margin: 30px;
+    margin-left: -3rem;
+}
+
+.paragrafi-user {
+    margin: -10px;
+    margin-left: 1rem;
+    margin-right: 31rem;
+}
+
+.user-icons {
+    margin-top: 40px;
+    font-size: 30px;
+    color: grey;
+    width: 140px;
+}
+
+.fa-search {
+    margin-right: 20px;
+}
+
+.fa-paperclip {
+    margin-right: 20px;
 }
