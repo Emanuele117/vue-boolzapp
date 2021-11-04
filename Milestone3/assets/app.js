@@ -128,14 +128,16 @@ const app = new Vue({
 
 
 
+                setTimeout(() => {
+                    this.contacts[this.attiva].messages.push(
+                        {
+                            date: '10/01/2020 15:50:00',
+                            text: 'ok',
+                            status: 'received'
+                        }
+                    )
 
-                this.contacts[this.attiva].messages.push(
-                    {
-                        date: '10/01/2020 15:50:00',
-                        text: 'ok',
-                        status: 'received'
-                    }
-                )
+                }, 1000);
         }
 
     }
