@@ -118,12 +118,14 @@ const app = new Vue({
                 this.contacts[this.attiva].messages.push(
                     {
                         date: '10/01/2020 15:50:00',
-                        newMessage: '',
+                        text: this.newMessage,
                         status: 'sent'
                     }
 
                 )
             }
+            this.newMessage = ''
+
 
         }
     }
