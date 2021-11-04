@@ -15,6 +15,7 @@ un “ok” come risposta, che apparirà dopo 1 secondo.
 const app = new Vue({
     el: '#app',
     data: {
+        newMessage: '',
         attiva: 0,
         contacts: [
             {
@@ -110,6 +111,11 @@ const app = new Vue({
         },
         visibile(index) {
             this.attiva++
+        },
+        addMessage() {
+            if (this.newMessage != '') {
+                this.contacts[this.attiva].messages.push(this.newMessage)
+            }
         }
     }
 })

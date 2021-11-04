@@ -148,7 +148,8 @@ body {
 
 .input {
     border: none;
-    width: 200px;
+    width: 400px;
+    padding: 5px;
 }
 
 .smile {
