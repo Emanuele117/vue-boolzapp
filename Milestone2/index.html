@@ -31,7 +31,7 @@
                 <input type="text" placeholder="Cerca o inizia una nuova chat" class="input">
             </div>
             <div class="users">
-                <div @click="visibile" class="user1" v-for= "contact in contacts">
+                <div @click="visibile" class="user1" v-for= "(contact,index) in contacts"  :class="index === attiva ? 'active' : '' ">
                     <img :src="contact.avatar" class="avatar">
                     <p class="name">{{contact.name}}</p>
                 </div>
@@ -39,9 +39,9 @@
         </div>
         <div class="main">
             <div class="user">
-                <img src="./assets/img/avatar_1.jpg" class="myAvatar">
-                <div class="paragrafi-user">
-                    <p class="p-user">Michele</p>
+                <img :src="contacts[attiva].avatar" class="myAvatar">
+                <div class="paragrafi-user"  >
+                    <p class="p-user">{{contacts[attiva].name}}</p>
                     <p class="access">Ultimo accesso oggi alle</p>
                 </div>
                 <div class="user-icons">

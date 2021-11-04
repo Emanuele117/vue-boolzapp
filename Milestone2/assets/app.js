@@ -104,7 +104,7 @@ const app = new Vue({
             return classeMessaggio
         },
         visibile(index) {
-            this.attiva = +1
+            this.attiva++
         }
     }
 })
