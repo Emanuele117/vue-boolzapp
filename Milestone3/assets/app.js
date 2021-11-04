@@ -124,9 +124,19 @@ const app = new Vue({
 
                 )
             }
-            this.newMessage = ''
+            this.newMessage = '',
 
 
+
+
+                this.contacts[this.attiva].messages.push(
+                    {
+                        date: '10/01/2020 15:50:00',
+                        text: 'ok',
+                        status: 'received'
+                    }
+                )
         }
+
     }
 })
